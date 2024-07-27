@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: url("./assets/bg.png");
+}
+
+.section-container {
+  @apply max-w-screen-xl mx-auto px-4 md:px-8 lg:px-16;
+}
+
+.title {
+  @apply text-2xl md:text-3xl lg:text-4xl font-bold leading-snug;
+}
+.subtitle {
+  @apply tracking-wide text-center text-lg font-semibold uppercase;
+}
+.active{
+   color: #ea001e;
+   text-decoration: underline;
+}
+
+.btn-style {
+  min-height: 2rem ;
+  font-size: 0.875rem ;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 24px;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: #ea001e;
+  transition: all 0.3s ease;
+}
+.btn-style:hover {
+  background-color: white;
+  color: #ea001e;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
